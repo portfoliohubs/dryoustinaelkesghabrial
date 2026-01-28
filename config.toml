@@ -294,13 +294,13 @@ defaultContentLanguage = "en"
       title = "دكتوراه في علوم الأسنان"
     
     [[params.ar.education.timeline]]
-      event = "في 2019 الدخول الي الكلية"
+      event = " الدخول الي الكلية"
     
     [[params.ar.education.timeline]]
-      event = "في 2024 التخرج من الكلية"  
+      event = "التخرج من الكلية"  
 
   [params.ar.contact.location]
-    address = "123 الشارع الرئيسي، المدينة، البلد"
+    address = "محافظة الشرقية - مدينة الزقازيق - منطقة شيبة النكارية - الحرم الجامعي الجديد (جامعة الزقازيق)."
 
   [params.ar.ui]
     [params.ar.ui.nav]

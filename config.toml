@@ -364,7 +364,7 @@ defaultContentLanguage = "en"
       alt = "Zircon crown of upper left 6"
       description = "Zircon crown for posterior tooth after preparation"
       alt_ar = "Zircon crown of upper left 6"
-      description_ar = "ضربوش زيركون لضرس خلفي بعد التحضير"
+      description_ar = طرربوش زيركون لضرس خلفي بعد التحضير"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/25406335-0f6f-4bf7-aae3-bb29b6796960"
@@ -378,7 +378,7 @@ defaultContentLanguage = "en"
       alt = "PFM crown of lower right 7"
       description = "Ceramic crown for posterior tooth"
       alt_ar = "PFM crown of lower right 7"
-      description_ar = "ضربوش سيراميك لضرس خلفي"
+      description_ar = "طربوش سيراميك لضرس خلفي"
       
   [[params.clinical_cases]]
     enabled = true

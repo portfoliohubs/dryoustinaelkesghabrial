@@ -1,0 +1,508 @@
+baseURL = "https://portfoliohubs.github.io/MICKY/"
+languageCode = "en-us"
+title = "Dr. Youstina Elkes Ghabrial "
+defaultContentLanguage = "en"
+
+[params]
+  # Hero Section
+  [params.hero]
+    name = "Dr. Youstina Elkes Ghabrial "
+    tagline = "GP dentist"
+    graduation = "Graduated 2024 - Faculty of dentistry Zagazig University"
+    profile_image = "https://github.com/user-attachments/assets/9061d11c-6854-4d58-b240-db0314d816eb"
+    profile_image_alt = "Profile photo of Dr. Youstina Elkes Ghabrial "
+    
+    [params.hero.current_position]
+      role = "GP dentist"
+      clinic = "Zagazig University Hospital"
+
+  [params.seo]
+    description = "Professional dental portfolio"
+    doctor_name_en = "Dr. Youstina Elkes Ghabrial "
+    doctor_name_ar = "د. يوستينا القس غبريال"
+    site_name = "Dr. Youstina Elkes Ghabrial "
+    og_image = ""
+    favicon_image = ""
+    twitter_handle = ""
+    keywords = [
+      "dentist",
+      "dental clinic",
+      "cosmetic dentistry",
+      "restorative dentistry",
+      "Dr. Youstina Elkes Ghabrial ",
+      "zagazig",
+      "DENTIST IN ZAGAZIG",
+      "DENTAL CLINIC IN ZAGAZIG",
+      "DENTAL CLINIC"
+    ]
+    keywords_ar = [
+      "طبيب أسنان",
+      "عيادة أسنان",
+      "تجميل الأسنان",
+      "ترميم الأسنان",
+      "د. يوستينا القس غبريال",
+      "طبيب بالزقازيق",
+      "عيادة بالزقازيق",
+      "دكتور يوستينا القس غبريال",
+      "عيادة يوستينا القس غبريال",
+      "عيادة اسنان الشرقية",
+      "يوستينا القس غبريال اسنان"
+    ]
+
+  [params.integrations]
+    google_search_console_verification = "6VtKNI5qnSYsfjCTBMfnm9PuZjjR7aYh6crmofpS8yw"
+    google_analytics_measurement_id = ""
+
+  [params.ui]
+    [params.ui.nav]
+      profile = "Profile"
+      skills = "Skills"
+      education = "Education"
+      clinical_cases = "Clinical Cases"
+      cases_short = "Cases"
+      blog = "Blog"
+      contact = "Contact"
+
+    [params.ui.skills]
+      title = "Professional Skills"
+      clinical_title = "Clinical Skills"
+      digital_title = "Digital Skills"
+      soft_title = "Soft Skills"
+
+    [params.ui.education]
+      title = "Education & Timeline"
+      graduated_label = "Graduated"
+      career_timeline_title = "Career Timeline"
+      courses_title = "Courses & Certifications"
+
+    [params.ui.cases]
+      title = "Clinical Cases"
+      subtitle = "Clinical Cases Gallery"
+
+    [params.ui.blog]
+      title = "Latest Articles"
+      subtitle = "Insights and Knowledge"
+      empty_text = "No blog posts yet"
+
+    [params.ui.contact]
+      title = "Get In Touch"
+      subtitle = "Let's connect and collaborate"
+      follow_me_title = "Follow Me"
+
+    [params.ui.labels]
+      now_working_as = "Now working as"
+      at = "at"
+      phone = "Phone"
+      whatsapp = "WhatsApp"
+      email = "Email"
+      location = "Location"
+      get_directions = "Get Directions"
+      masters_degree = "Master's Degree"
+      phd_degree = "PhD Degree"
+      rights_reserved = "All rights reserved"
+
+  # Skills Section
+  [params.skills]
+    clinical = [
+      "Cosmetic Fillings",
+      "Endodontics",
+      "Pedo",
+      "Fixed prosthodontics",
+      "Periodontics"
+    ]
+    
+    digital = [
+      "Mobile dental photography",
+      "Intraoral scanning"
+    ]
+    
+    soft = [
+      "Pediatric patients management",
+      "Distraction techniques",
+      "Parent managment",
+      "Patience",
+      "Emotional control"
+    ]
+
+  # Education Section
+  [params.education]
+    university = "Faculty of dentistry Zagazig University"
+    graduation_year = "2024"
+    
+    [params.education.master]
+      obtained = false
+      title = "Master in Oral Medicine"
+      year = "2024"
+    
+    [params.education.phd]
+      obtained = false
+      title = "PhD in Dental Sciences"
+      year = "2028"
+    
+    [[params.education.timeline]]
+      year = "2019"
+      event = "Start faculty of dentistry"
+    
+    [[params.education.timeline]]
+      year = "2024"
+      event = "Graduated"
+    
+    # Certificates (images will be uploaded via GitHub issues)
+    # [[params.education.certificates]]
+    #   title = "Advanced Endodontics Course"
+    #   image = "cert1.jpg"
+  # Clinical Cases Section
+  [[params.clinical_cases]]
+    enabled = true
+    category = "operative and esthetics"
+    category_ar = "حشو عادى وتجميلى"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/103affe8-9f03-4a0b-baaa-84352497b568"
+      alt = "Class lV composite restoration of upper right central"
+      description = "Cosmetic filling for a broken tooth"
+      alt_ar = "Class lV composite restoration of upper right central"
+      description_ar = "حشو تجميلي لسن مكسور"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/0f8309a3-c8b5-49f8-b6ef-dbd8b85703fa"
+      alt = "Multiple class II composite restorations of upper 5,6,7 in one visit"
+      description = "Cosmetic filling for three posterior teeth in one session"
+      alt_ar = "Multiple class II composite restorations of upper 5,6,7 in one visit"
+      description_ar = "حشو تجميلي لثلاثة ضروس خلفية في جلسة واحدة"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/417d984c-aaaf-40a4-a556-13b9af191104"
+      alt = "Class III composite restorations of upper right lateral and canine"
+      description = "Cosmetic filling for anterior teeth"
+      alt_ar = "Class III composite restorations of upper right lateral and canine"
+      description_ar = "حشو تجميلي للأسنان الأمامية"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/6043296c-e510-4544-8aaf-e5c7487288d6"
+      alt = "Class IV composite restoration of upper right lateral"
+      description = "Cosmetic filling for a broken tooth"
+      alt_ar = "Class IV composite restoration of upper right lateral"
+      description_ar = "حشو تجميلي لسن مكسور"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/1a215e77-9235-47cc-b638-d64408bc7b28"
+      alt = "Class lll composite restorations of upper centrals"
+      description = "Cosmetic filling for anterior teeth"
+      alt_ar = "Class lll composite restorations of upper centrals"
+      description_ar = "حشو تجميلي للأسنان الأمامية"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/38b3c182-dcdc-4705-b2b3-2c9d33744aa4"
+      alt = "Class lV composite restoration of upper left central"
+      description = "Cosmetic root canal filling for anterior tooth"
+      alt_ar = "Class lV composite restoration of upper left central"
+      description_ar = "حشو عصب تجميلي لسنة امامية"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/3924639b-0980-4715-9bf1-050a1c181ef2"
+      alt = "Class l composite restoration of upper right 6"
+      description = "Cosmetic filling for upper tooth"
+      alt_ar = "Class l composite restoration of upper right 6"
+      description_ar = "حشو تجميلي لضرس علوي"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/bbd58a05-20a2-420c-8b4d-c734ff2172f9"
+      alt = "Class V composite restoration of lower right 5"
+      description = "Cosmetic filling for lower tooth"
+      alt_ar = "Class V composite restoration of lower right 5"
+      description_ar = "حشو تجميلي لضرس سفلي"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/e85542a4-0ab8-47c1-8905-a97cad0af93e"
+      alt = "Class l composite restoration of upper 6 with palatal extension"
+      description = "Cosmetic filling for posterior tooth"
+      alt_ar = "Class l composite restoration of upper 6 with palatal extension"
+      description_ar = "حشو تجميلي لضرس خلفي"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/e074e24a-58c3-4790-b4d5-6332e988de4d"
+      alt = "Amalgam replacement of upper left 6"
+      description = "Replacing amalgam filling with cosmetic laser filling"
+      alt_ar = "Amalgam replacement of upper left 6"
+      description_ar = "تغيير حشو بلاتين بحشو ليزر تجميلي"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/093659fd-17d4-4d40-a347-12846013401e"
+      alt = "Amalgam replacement of lower left 6"
+      description = "Replacing amalgam filling with cosmetic laser filling"
+      alt_ar = "Amalgam replacement of lower left 6"
+      description_ar = "تغيير حشو بلاتين بحشو ليزر تجميلي"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/7c37a19b-e01b-4d23-ac23-c50ab9be74b2"
+      alt = "Composite restorations of upper 6 anteriors"
+      description = "Cosmetic filling for anterior teeth"
+      alt_ar = "Composite restorations of upper 6 anteriors"
+      description_ar = "حشو تجميلي للاسنان الأمامية"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/7c0575ed-c11e-4cdb-b0a0-998d77fdf1d3"
+      alt = "Amalgam replacement of lower right 6,7"
+      description = "Replacing amalgam filling with laser filling for two teeth"
+      alt_ar = "Amalgam replacement of lower right 6,7"
+      description_ar = "تغيير حشو بلاتين بحشو ليزر لضرسين"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Endodontics"
+    category_ar = "حشو العصف (علاج الجذور)"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/f1b87e15-38fd-40a0-a489-c9cd6843486b"
+      alt = "Endodontic treatment of lower left 6"
+      description = "Root canal treatment for lower posterior tooth"
+      alt_ar = "Endodontic treatment of lower left 6"
+      description_ar = "حشو عصب لضرس سفلي و خلفي"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/632b0a24-c683-4e35-ab61-fa85cdef2307"
+      alt = "Endodontic treatment of upper left 6"
+      description = "Root canal treatment for upper posterior tooth"
+      alt_ar = "Endodontic treatment of upper left 6"
+      description_ar = "حشو عصب لضرس علوي خلفي"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/b08fec7c-8c0b-410e-9687-d883870761b7"
+      alt = "Endodontic Retreatment of lower right 5"
+      description = "Root canal retreatment for lower tooth"
+      alt_ar = "Endodontic Retreatment of lower right 5"
+      description_ar = "اعادة حشو عصب لضرس سفلي"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/0efa97a3-974d-4294-9084-9100d3b05ae9"
+      alt = "Endodontic treatment of lower left 6"
+      description = "Root canal treatment for lower tooth"
+      alt_ar = "Endodontic treatment of lower left 6"
+      description_ar = "حشو عصب لضرسي سفلي"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/9f5dd425-d383-435e-9773-2eb84c0e8e2e"
+      alt = "Endodontic treatment of upper right 6"
+      description = "Root canal treatment for upper tooth"
+      alt_ar = "Endodontic treatment of upper right 6"
+      description_ar = "حشو عصب لضرس علوي"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/5cccd38c-797c-41de-8ca3-759b9a60f89d"
+      alt = "Endodontic treatment of lower left 6"
+      description = "Root canal treatment for lower tooth"
+      alt_ar = "Endodontic treatment of lower left 6"
+      description_ar = "حشو عصب لضرس سفلي"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/202b4dda-40f9-4fc5-afa3-b574afdf3b53"
+      alt = "Endodontic treatment of lower left 7"
+      description = "Root canal treatment for lower tooth"
+      alt_ar = "Endodontic treatment of lower left 7"
+      description_ar = "حشو عصب لضرس سفلي"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "pedo"
+    category_ar = "علاج الاسنان للاطفال"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/65be4822-15eb-4cae-9415-de1cf854f4f1"
+      alt = "Pulp therapy (pulptomy) of lower left D'E in one visit"
+      description = "Partial root canal treatment for two primary teeth in one session with crowns"
+      alt_ar = "Pulp therapy (pulptomy) of lower left D'E in one visit"
+      description_ar = "حشو عصب جزئي لضرسين لبنيين في جلسة واحدة مع الطرابيش"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/894d2805-90a4-49e8-abd4-ab3535479e4b"
+      alt = "Pulp therapy (pulpotomy) of lower left D l,E"
+      description = "Children root canal treatment"
+      alt_ar = "Pulp therapy (pulpotomy) of lower left D l,E"
+      description_ar = "حشو عصب اطفال"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "perio"
+    category_ar = "تنضيف الجير وتلميع الاسنان"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/320a44d0-73ae-409a-b094-a0f280a37103"
+      alt = "Scaling and polishing"
+      description = "Teeth cleaning and polishing"
+      alt_ar = "Scaling and polishing"
+      description_ar = "تنضيف جير وتلميع للأسنان"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/db369484-0fb8-4007-b902-a08da31f0d94"
+      alt = "Scaling and polishing"
+      description = "Teeth cleaning and polishing"
+      alt_ar = "Scaling and polishing"
+      description_ar = "تنضيف جير وتلميع"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/63592759-4082-45eb-aae9-c63dc464872d"
+      alt = "Gingival depigmentation"
+      description = "Gingival depigmentation"
+      alt_ar = "Gingival depigmentation"
+      description_ar = "توريد لثة"
+      
+  [[params.clinical_cases]]
+    enabled = true
+    category = "prosthesis (fixed and removable)"
+    category_ar = "التركيبات الثابته والمتحركة"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/2d542ae1-96d2-417d-a4d7-21205a311cfb"
+      alt = "Zircon crown of upper left 4"
+      description = "Zircon crown for tooth after preparation"
+      alt_ar = "Zircon crown of upper left 4"
+      description_ar = "طربوش زيركون لضرس بعد التحضير"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/22098a73-a6d9-40a1-bab2-6f656f19ac56"
+      alt = "Zircon crown of upper left 6"
+      description = "Zircon crown for posterior tooth after preparation"
+      alt_ar = "Zircon crown of upper left 6"
+      description_ar = "ضربوش زيركون لضرس خلفي بعد التحضير"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/25406335-0f6f-4bf7-aae3-bb29b6796960"
+      alt = "Zircon crown of upper right 5"
+      description = "Zircon crown for upper tooth"
+      alt_ar = "Zircon crown of upper right 5"
+      description_ar = "طربوش زيركون لضرس علوي"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/265800c9-61ef-464f-937a-506c6e3a97e5"
+      alt = "PFM crown of lower right 7"
+      description = "Ceramic crown for posterior tooth"
+      alt_ar = "PFM crown of lower right 7"
+      description_ar = "ضربوش سيراميك لضرس خلفي"
+      
+  [[params.clinical_cases]]
+    enabled = true
+    category = "surgery"
+    category_ar = "جراحة"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/4b1003fa-5501-44dd-a95d-6244c1d63ed6"
+      alt = "Surgical extraction of lower impacted wisdom"
+      description = "Surgical extraction of impacted wisdom tooth"
+      alt_ar = "Surgical extraction of lower impacted wisdom"
+      description_ar = "خلع جراحي ضرس عقل مدفون"
+      
+  # Contact Section
+  [params.contact]
+    phone = "01207570324"
+    whatsapp = "01207570324"
+    email = "Youstina.ghabrial222@gmail.com"
+    instagram = "https://www.instagram.com/tina_elkes?igsh=MW5qYjM4NTA4MHd1dg%3D%3D&utm_source=qr"
+    facebook = "https://www.facebook.com/share/17kGzpo8P6/?mibextid=wwXIfr"
+    linkedin = "https://linkedin.com/in/yourprofile"
+    
+    [params.contact.location]
+      enabled = true
+      address = "محافظة الشرقية - مدينة الزقازيق - منطقة شيبة النكارية - الحرم الجامعي الجديد (جامعة الزقازيق)"
+      latitude = "30.585070727964393"
+      longitude = "31.487296675825437"
+
+# Arabic Translations
+[params.ar]
+  [params.ar.hero]
+    name = "د. يوستينا القس غبريال"
+    tagline = "طبيب أسنان عام"
+    graduation = "تخرج 2024 - كلية طب وجراحة الفم والأسنان جامعة الزقازيق"
+    profile_image_alt = "صورة الملف الشخصي للدكتور يوستينا القس غبريال"
+    
+    [params.ar.hero.current_position]
+      role = "طبيب أسنان عام"
+      clinic = "مستشفى جامعة الزقازيق"
+  
+[params.ar.skills]
+    clinical = [
+      "الحشوات التجميلية",
+      "حشو العصب",
+      "الاطفال",
+      "التركيبات الثابتة",
+      "أمراض اللثة"
+    ]
+    
+    digital = [
+      "التقاط صور احترافية للحالات بالموبايل للتوثيق",
+      "استخدام الماسحات الضوئية داخل الفم"
+    ]
+    
+    soft = [
+      "التواصل مع المرضي وخاصة الأطفال",
+      "مهارة التشتيت الذكي وخاصة للأطفال",
+      "إدارة الاهل",
+      "الصبر وضبط النفس"
+    ]
+    
+  
+  [params.ar.education]
+    university = "كلية طب وجراحة الفم والأسنان جامعة الزقازيق"
+    
+    [params.ar.education.master]
+      title = "ماجستير في طب الفم"
+    
+    [params.ar.education.phd]
+      title = "دكتوراه في علوم الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = " الدخول الي الكلية"
+    
+    [[params.ar.education.timeline]]
+      event = "التخرج من الكلية"  
+
+  [params.ar.contact.location]
+    address = "محافظة الشرقية - مدينة الزقازيق - منطقة شيبة النكارية - الحرم الجامعي الجديد (جامعة الزقازيق)."
+
+  [params.ar.ui]
+    [params.ar.ui.nav]
+      profile = "الملف الشخصي"
+      skills = "المهارات"
+      education = "التعليم"
+      clinical_cases = "الحالات السريرية"
+      cases_short = "الحالات"
+      blog = "المدونة"
+      contact = "التواصل"
+
+    [params.ar.ui.skills]
+      title = "المهارات المهنية"
+      clinical_title = "المهارات السريرية"
+      digital_title = "المهارات الرقمية"
+      soft_title = "المهارات الشخصية"
+
+    [params.ar.ui.education]
+      title = "التعليم والخط الزمني"
+      graduated_label = "تخرج"
+      career_timeline_title = "الخط الزمني المهني"
+      courses_title = "الدورات والشهادات"
+
+    [params.ar.ui.cases]
+      title = "الحالات السريرية"
+      subtitle = "معرض الحالات السريرية"
+
+    [params.ar.ui.blog]
+      title = "أحدث المقالات"
+      subtitle = "رؤى ومعرفة"
+      empty_text = "لا توجد مقالات بعد. أضف أول مقال في config.toml"
+
+    [params.ar.ui.contact]
+      title = "تواصل معي"
+      subtitle = "لنتواصل ونتعاون"
+      follow_me_title = "تابعني"
+
+    [params.ar.ui.labels]
+      now_working_as = "أعمل حالياً ك"
+      at = "في"
+      phone = "الهاتف"
+      whatsapp = "واتساب"
+      email = "البريد"
+      location = "الموقع"
+      get_directions = "احصل على الاتجاهات"
+      masters_degree = "درجة الماجستير"
+      phd_degree = "درجة الدكتوراه"
+      rights_reserved = "جميع الحقوق محفوظة"
